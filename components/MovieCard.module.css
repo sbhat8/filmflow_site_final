@@ -1,0 +1,47 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.skeleton {
+  border-radius: var(--mantine-radius-md);
+  height: 265px;
+}
+
+.section {
+  margin-bottom: var(--mantine-spacing-sm);
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 265px;
+}
+
+.card {
+  border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-xl);
+}
+
+.title {
+  /*font-family: Greycliff, sans-serif;*/
+  height: 48px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.group {
+  flex-wrap: nowrap;
+  flex-grow: 2;
+  gap: var(--mantine-spacing-xs);
+  align-items: center;
+}
+
+.badge {
+  cursor: pointer;
+  width: calc(50% - (var(--mantine-spacing-xs) - var(--mantine-spacing-xs) / 2));
+  --badge-height: var(--badge-height-sm);
+  --badge-padding-x: var(--badge-padding-x-sm);
+  --badge-fz: var(--badge-fz-sm);
+  --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;
+}
